@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>ANT TASK - copying config files....</echo>
+  <copy flatten="true" todir="E:\Selenium\Workplace\project/config" overwrite="true">
+    <fileset includes="*.*" dir="E:\Selenium\Workplace\project/src/main/environments/local/config">
+      <include name="*.*"/>
+    </fileset>
+  </copy>
+</target>
+</project>
