@@ -135,4 +135,9 @@
 		</plugin>
         </plugins>
     </build>
+    <description>mvn test -Dcucumber.options=&quot;--tags @your_tag&quot;
+
+OR
+
+clean install</description>
 </project>
