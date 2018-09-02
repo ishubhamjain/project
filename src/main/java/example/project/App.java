@@ -20,6 +20,12 @@ public class App extends BaseUtil
 		//value = base.stepinfo;
 	}
 	
+	@Given("^I navigate to the login page$")
+    public void read2()
+    {
+		System.out.println("I am in background");
+        
+    }
 	
 	@Given("^Read data from config$")
     public void read()
