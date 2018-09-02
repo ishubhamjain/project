@@ -18,3 +18,6 @@ Scenario: Read data from config file
 	
 	Scenario: Read data from config files
 	Given Read data from config
+	
+  Scenario: monoconic test
+	Given monoconic test
