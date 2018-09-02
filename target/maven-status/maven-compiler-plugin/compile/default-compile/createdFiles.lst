@@ -1,2 +1,4 @@
 example\project\App.class
+Base\BaseUtil.class
+example\project\Hook.class
 utils\Configuration.class
