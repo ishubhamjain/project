@@ -10,6 +10,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "Feature"
 		,glue={"example.project"}
+		,plugin = { "pretty", "html:target/cucumber-reports" }
+		,monochrome = true
 		)
  
 public class TestRunner
