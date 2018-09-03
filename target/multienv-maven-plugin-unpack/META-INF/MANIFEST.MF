@@ -6,7 +6,7 @@ Class-Path: dependency-jars/junit-4.12.jar dependency-jars/hamcrest-co
  cumber-core-1.2.5.jar dependency-jars/cucumber-html-0.2.3.jar depende
  ncy-jars/cucumber-junit-1.2.5.jar dependency-jars/cucumber-jvm-deps-1
  .0.5.jar dependency-jars/gherkin-2.12.2.jar dependency-jars/tag-expre
- ssions-1.1.1.jar
+ ssions-1.1.1.jar dependency-jars/gherkin-jvm-deps-1.0.4.jar
 Created-By: Apache Maven 3.3.9
 Build-Jdk: 1.8.0_181
 Main-Class: Runner.TestMethods
