@@ -2,7 +2,7 @@ package example.project;
 
 import Base.BaseUtil;
 import cucumber.api.java.en.Given;
-
+import cucumber.api.java.en.When;
 //import project.BaseUtil;
 import utils.Configuration;
 
@@ -38,4 +38,12 @@ public class App extends BaseUtil
         System.out.println(Configuration.getConfigurationValueForProperty("env"));
         
     }
+	
+	//use (?:.*?) to avoid creating extra variables
+	@Given("^the user (.*?) looks up the definition of the word (?:.*?) and (.*?) and (?:.*?) and (.*?)$")
+	public void when(String name,String test,String name2){
+	  System.out.println("myname ="+name);
+	  System.out.println("test ="+test);
+	  System.out.println("name2 ="+name2);
+	}
 }
